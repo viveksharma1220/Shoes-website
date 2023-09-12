@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.title{
+    margin-left: 40%;
+    margin-bottom: 2%;
+    color: rgb(13, 133, 224);
+    font-size: 40px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Foldit', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Vina Sans', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.container {
+    /* background-color: rgb(219, 43, 43); */
+    background-color: white;
+    display: flex;
+    min-height: 100%;
+}
+
+.nav {
+    color: #fff;
+    width: 150px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    margin-bottom: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.nav-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.nav-button:hover {
+    background-color: #777;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    /* background-color: #dbbd2b; */
+    /* background-color: black; */
+    background-image: url("bg.webp");
+    background-position: center;
+   
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 14px #3c3d3b;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* background-color: whitesmoke; */
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 2rem;
+}
+
+
+.item img {
+    max-height: 110px;
+    margin-right: 20px;
+}
+
+.item-details {
+    text-align: left;
+    margin-left: 30px;
+    flex-grow: 1;
+}
+
+.item-details h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="number"] {
+    width: 40px;
+   
+}
+
+button.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 2rem;
+}
+
+button.add-to-cart:hover {
+    background-color: #555;
+} 
+
+.content1 {
+    flex-grow: 1;
+    padding: 20px;
+    /* background-color: #dbbd2b; */
+    /* background-color: black; */
+    background-image: url("logo3.jpg");
+    background-size: cover;
+    /* background-position: center; */
+   
+}
